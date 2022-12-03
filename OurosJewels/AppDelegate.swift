@@ -11,6 +11,9 @@ import SQLite3
 var dbQueue: OpaquePointer!
 var dbURL = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
 
+var sds: OpaquePointer!
+var sdsd = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as String
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
